@@ -13,4 +13,6 @@ add_executable(Figures main.cpp
         Ellipse.cpp
         Ellipse.h
         Triangle.cpp
-        Triangle.h)
+        Triangle.h
+        Square.cpp
+        Square.h)

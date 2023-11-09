@@ -3,6 +3,7 @@
 #include "Rectangle.h"
 #include "Triangle.h"
 #include "Ellipse.h"
+#include "Square.h"
 int main() {
     Circle circle(5);
     std::cout << "Circle area: " << circle.area() << std::endl;
@@ -23,5 +24,12 @@ int main() {
     std::cout << "Ellipse area: " << ellipse.area() << std::endl;
     std::cout << "Ellipse perimeter: " << ellipse.perimeter() << std::endl;
     std::cout << "Ellipse details: " << ellipse << std::endl;
+
+    Square square(5);
+    std::cout << "Square area: " << square.area() << std::endl;
+    std::cout << "Square perimeter: " << square.perimeter() << std::endl;
+    std::cout << "Square details: " << square << std::endl;
+
+
     return 0;
 }
