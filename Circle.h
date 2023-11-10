@@ -7,7 +7,7 @@ private:
     double radius;
 
 public:
-    Circle(double r) : radius(r) {}
+    Circle(double r=0) : radius(r) {}
     double area() const override;
     double perimeter() const override;
     void print(std::ostream& os) const override;

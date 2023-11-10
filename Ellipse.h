@@ -4,11 +4,11 @@
 
 class Ellipse : public Figure {
 private:
-    double a; // semi-major axis
-    double b; // semi-minor axis
+    double a;
+    double b;
 
 public:
-    Ellipse(double major, double minor) : a(major), b(minor) {}
+    Ellipse(double major=0, double minor=0) : a(major), b(minor) {}
 
     double area() const override;
 

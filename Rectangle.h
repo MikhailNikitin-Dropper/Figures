@@ -7,7 +7,7 @@ private:
     double width;
     double height;
 public:
-    Rectangle(double w, double h) : width(w), height(h) {}
+    Rectangle(double w=0, double h=0) : width(w), height(h) {}
     double area() const override;
 
     double perimeter() const override;

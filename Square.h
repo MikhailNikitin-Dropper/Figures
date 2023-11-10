@@ -10,7 +10,7 @@ class Square: public Figure{
 private:
     double a;
 public:
-    Square(double s): a(s) {};
+    Square(double s=0): a(s) {};
     double area() const override;
 
     double perimeter() const override;

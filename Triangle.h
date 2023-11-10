@@ -6,7 +6,7 @@ class Triangle: public Figure{
 private:
     double a,b,c;
 public:
-    Triangle(double s1, double s2, double s3) : a(s1), b(s2), c(s3) {}
+    Triangle(double s1=0, double s2=0, double s3=0) : a(s1), b(s2), c(s3) {}
     double area() const override;
     double perimeter() const override;
     void print(std::ostream& os) const override;
